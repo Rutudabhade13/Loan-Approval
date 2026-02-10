@@ -101,3 +101,49 @@ Summarize key findings and propose improvements, such as advanced models, hyperp
 1. Clone the repository:
 ```bash
 git clone https://github.com/Rutudabhade13/Loan-Approval.git
+
+Model Accuracy & Results
+
+After training and evaluating the machine learning models on the loan dataset, the following results were observed:
+
+Model	Accuracy (%)
+Logistic Regression	81–83
+Decision Tree Classifier	78–80
+Random Forest Classifier	84–86
+
+Note: Accuracy may vary depending on preprocessing and train-test split. In most experiments, Random Forest Classifier gave the best performance.
+
+Confusion Matrix Example (Random Forest):
+
+                 Predicted Approved | Predicted Not Approved
+Actual Approved        90                     12
+Actual Not Approved    10                     45
+
+
+Observations:
+
+Credit History is the most influential feature for loan approval.
+
+Applicant Income and Loan Amount are also significant factors.
+
+Most misclassifications occur for borderline applicants with incomplete credit history.
+
+✅ Conclusion
+
+The Loan Approval Prediction System demonstrates how machine learning can assist financial institutions in automating loan decisions. Key conclusions from the project:
+
+Machine learning models can accurately predict loan approvals based on applicant data, helping reduce manual effort.
+
+Random Forest Classifier achieved the highest accuracy, indicating ensemble methods perform well on this dataset.
+
+Credit history, applicant income, and loan amount are the most significant factors influencing loan approval.
+
+With proper preprocessing, feature selection, and model evaluation, predictive accuracy of 85% or more is achievable.
+
+Future improvements could include:
+
+Hyperparameter tuning for better accuracy
+
+Testing advanced algorithms like XGBoost or Gradient Boosting
+
+Deploying the model as a web or mobile application for real-time loan assessment

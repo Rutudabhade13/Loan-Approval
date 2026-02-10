@@ -102,7 +102,7 @@ Summarize key findings and propose improvements, such as advanced models, hyperp
 ```bash
 git clone https://github.com/Rutudabhade13/Loan-Approval.git
 
-Model Accuracy & Results
+## Model Accuracy & Results:
 
 After training and evaluating the machine learning models on the loan dataset, the following results were observed:
 
